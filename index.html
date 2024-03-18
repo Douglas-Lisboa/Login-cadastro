@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,300;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="cadastro.html">
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="container">
+      <form action="login.php" method="post">
+        <h1>Entrar na plataforma</h1>
+        <div class="input-container">
+          <input placeholder="Email" type="email" required />
+          <img
+            width="20"
+            height="20"
+            src="https://img.icons8.com/ios/50/user--v1.png"
+            alt="user--v1"
+          />
+        </div>
+
+        <div class="input-container">
+          <input placeholder="Senha" type="password" required />
+          <img
+            width="20"
+            height="20"
+            src="https://img.icons8.com/ios/50/lock-2.png"
+            alt="lock-2"
+          />
+
+          <a href="recuperar-senha.html">Esqueci minha Senha</a>
+        </div>
+        <button type="submit" class="submit-button">Entrar</button>
+
+        <div class="register-link">
+          <p>Não está cadastrado ? <a href="cadastro.html">Cadastrar</a></p>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
